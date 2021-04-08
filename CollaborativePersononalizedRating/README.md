@@ -1,4 +1,4 @@
-# Personal/Friends review system for wish-listed items
+# Collaborative Rating system for wish-listed items
 
 Suppose I am the customer, and I have wish-listed some of my favourite items. But now, I am confused about which ones to buy :(  <br/>
 This feauture of Collaborative Personalized Rating comes to my rescue :) <br/>
