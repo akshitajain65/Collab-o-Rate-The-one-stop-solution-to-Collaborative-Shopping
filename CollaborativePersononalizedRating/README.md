@@ -7,8 +7,8 @@ I can then see the average rating and thus take a quicker and contented decision
 
 We implemented this on the WAMP server in our localhost. <br/>
 Technologies used: <br/>
-Backend-PHP <br/>
-Front end- HTML,CSS,JavaScript <br/>
+Backend- PHP <br/>
+Front end- HTML, CSS, JavaScript <br/>
 
 # To use:
 Download the folder from github and save in www folder of the wamp64 folder. <br/>
