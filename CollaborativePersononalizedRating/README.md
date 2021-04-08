@@ -5,10 +5,11 @@ This feauture of Collaborative Personalized Rating comes to my rescue :) <br/>
 It enables me to get my friends' opinion about the products. They can rate the dresses on a scale of 0 to 5 based on their choices. <br/>
 I can then see the average rating and thus take a quicker and contented decision. This shall make my purchase experience better and more satysfying. <br/>
 
-We implemented this on the WAMP server in our localhost. <br/>
-Technologies used: <br/>
+We implemented this on the **WAMP server** in our localhost. <br/>
+**Technologies used:** <br/>
 Backend- PHP <br/>
 Front end- HTML, CSS, JavaScript <br/>
+Database- MySql
 
 # To use:
 Download the folder from github and save in www folder of the wamp64 folder. <br/>
