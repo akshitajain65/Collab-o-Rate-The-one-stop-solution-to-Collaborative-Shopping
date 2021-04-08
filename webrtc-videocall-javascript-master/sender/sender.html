@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="head-elements">
+            <div>
+                <label for="username-input">Username</label>
+                <input placeholder="Your Username..."
+                        type="text"
+                        id="username-input" /><br>
+                <div class="button-center">
+                    <button onclick="sendUsername()">Send</button>
+                    <button onclick="startCall()">Start Call</button>
+                </div>
+            </div>
+            <div id="video-call-div">
+                <video muted id="local-video" autoplay></video>
+                <video id="remote-video" autoplay></video>
+                <div class="call-action-div">
+                    <button class="av-button" onclick="muteVideo()"><i onclick="myFunction2(this)" class="fa fa-video-camera fa-2x"></i></button>
+                    <button class="av-button" onclick="muteAudio()"><i onclick="myFunction(this)" class="fa fa-microphone fa-2x"></i></button>
+                </div>
+            </div>
+        <script src="./sender.js"></script>
+        <script>
+            function myFunction(x){
+                x.classList.toggle("fa-microphone-slash");
+            }
+
+            function myFunction2(x){
+                x.classList.toggle("fa-video-camera-slash");
+            }
+        </script>
+    </body>
+
+</html>
