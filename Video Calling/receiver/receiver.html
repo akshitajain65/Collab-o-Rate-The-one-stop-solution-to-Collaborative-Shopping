@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <div class="head-text">
+        <h2>Collab-o-rate: An Ultimate Shopping Experience</h2>
+    </div>
+
+    <div class="parent-div">
+        
+        <div class="head-elements">
+            <div>
+                <label for="username-input" style="color: white;">Username</label>
+                <input placeholder="Enter Username..."
+                        type="text"
+                        id="username-input" /><br>
+                <div class="button-center">
+                    <button onclick="joinCall()">Join Call</button>
+                </div>
+            </div>
+            <div id="video-call-div">
+                <video muted id="local-video" autoplay></video>
+                <video id="remote-video" autoplay></video>
+                <div class="call-action-div">
+                    <button onclick="muteVideo()"><i onclick="randomFunction(this)" class="fa  fa-video-camera fa-2x"> Cam</i></button>
+                    <button onclick="muteAudio()"><i onclick="myFunction(this)" class="fa fa-microphone fa-2x"> Mic</i></button>
+                </div>
+            </div>
+        </div>
+        <script src="./receiver.js"></script>
+        <script>
+            function randomFunction(y){
+                y.classList.toggle("fa-toggle-off");   
+            }
+        </script>
+        <script>
+            function myFunction(x){
+                x.classList.toggle("fa-microphone-slash");
+            }
+        </script>
+
+    </div>
+    </body>
+
+</html>
