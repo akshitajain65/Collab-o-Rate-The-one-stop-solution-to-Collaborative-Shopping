@@ -9,15 +9,14 @@ We implemented this on the **WAMP server** in our localhost. <br/>
 **Technologies used:** <br/>
 Backend- PHP <br/>
 Front end- HTML, CSS, JavaScript <br/>
-Database- MySql
+Database- MySQL
 
 # To use:
 Download the folder from github and save in www folder of the wamp64 folder. <br/>
 1.Type localhost/CollaborativePersononalizedRating/index.php in search bar <br/>
 OR <br/>
-2.Add the folder loaction to virtual host and type the given site name in the search bar. <br/>
+2.Add the folder location to virtual host and type the given site name in the search bar. <br/>
 
-For the purpose of demo, the list of friends and products are already added to the database. The feature of adding friends is to be implemented before the next phase of the hackathon.
 
 
 
