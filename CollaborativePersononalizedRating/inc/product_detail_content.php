@@ -123,9 +123,7 @@
 					<input type="hidden" name="action" value="userLogin">
 					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
 				</form>
-				<div class="login-help">
-					<p><b>Username</b> : Alpha, Beta, Gama <b>Password</b>: 123</p>
-				</div>
+				
       </div>
 
     </div>
