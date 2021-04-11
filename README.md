@@ -1,4 +1,4 @@
-# Collaborative-Shopping---Team-Binary-Brains
+# Collab-o-Rate : The one stop solution to Collaborative Shopping
 
 We have implemented the following features in Collab-o-Rate: a Collaborative Shopping Solution: 
 
