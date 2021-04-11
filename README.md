@@ -1,6 +1,6 @@
 # Collaborative-Shopping---Team-Binary-Brains
 
-We have implemented the following features in our Collaborative Shopping Solution: 
+We have implemented the following features in Collab-o-Rate: a Collaborative Shopping Solution: 
 
 1. Video Calling
 -Users can connect to each other using their unique Username
